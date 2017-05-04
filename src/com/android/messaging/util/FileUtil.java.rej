@@ -1,0 +1,14 @@
+--- src/com/android/messaging/util/FileUtil.java
++++ src/com/android/messaging/util/FileUtil.java
+@@ -16,7 +16,11 @@
+ 
+ package com.android.messaging.util;
+ 
++import android.content.ContentResolver;
+ import android.content.Context;
++import android.net.Uri;
++import android.os.Environment;
++import android.text.TextUtils;
+ import android.webkit.MimeTypeMap;
+ 
+ import com.android.messaging.Factory;
